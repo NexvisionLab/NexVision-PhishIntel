@@ -23,7 +23,7 @@ Security = "https://github.com/NexvisionLab/NexVision-PhishIntel/security/adviso
 
 [project.optional-dependencies]
 api = ["fastapi>=0.115,<1", "uvicorn[standard]>=0.30,<1"]
-qr = ["numpy>=1.26,<3", "opencv-python-headless>=4.10,<5"]
+qr = ["numpy>=1.26,<3", "opencv-python-headless>=4.10,<6"]
 dev = [
   "bandit>=1.9,<2",
   "build>=1.3,<2",
